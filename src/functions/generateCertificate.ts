@@ -10,7 +10,7 @@ interface ICreateCetificate {
 export const handler: APIGatewayProxyHandler = async (event) => {
   const { id, name, grade } = JSON.parse(event.body) as ICreateCetificate
 
-  document.put({
+  await document.put({
     TableName: 'users_certificate',
     Item: {
       id,
