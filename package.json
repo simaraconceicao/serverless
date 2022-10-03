@@ -16,7 +16,11 @@
     "@middy/core": "^2.5.3",
     "@middy/http-json-body-parser": "^2.5.3",
     "aws-sdk": "^2.1223.0",
-    "nanoid": "^4.0.0"
+    "chrome-aws-lambda": "^10.1.0",
+    "dayjs": "^1.11.5",
+    "handlebars": "^4.7.7",
+    "nanoid": "^4.0.0",
+    "puppeteer-core": "^18.0.5"
   },
   "devDependencies": {
     "@serverless/typescript": "^3.0.0",
