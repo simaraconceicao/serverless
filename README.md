@@ -43,13 +43,16 @@ GET LOCALHOST - validação/consulta de certificado
 ```
 
 
-> :warning: As is, this template, once deployed, opens a **public** endpoint within your AWS account resources. Anybody with the URL can actively execute the API Gateway endpoint and the corresponding lambda. You should protect this endpoint with the authentication method of your choice.
+> :warning: Atenção para fazer o deploy em produção você precisa ter uma conta na AWS e ter configurado na sua máquina as credenciais. Mas as configurações desse projeto te permite rodar localmente.
 
 ### Localmente
 
 Para rodar o projeto localmente:
 
 - `npm run dev` 
+Para instalar o banco de dados localmente:
+
+- `npm install dynamodb:start` 
 
 Para subir o banco de dados localmente:
 
